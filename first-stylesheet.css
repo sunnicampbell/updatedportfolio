@@ -1,0 +1,94 @@
+/*...Global...*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-image: url(images/backgroundimage.png);
+    }
+h1, h2, h3 {
+    color: #006699;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    }
+nav {
+    float: right;
+    display: flex;
+    
+}
+#menubar a {
+    
+    font: 'open sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    float: right;
+    text-align: right;
+    color:#006699;
+    }
+#sitecontent
+    { 
+    width: 849px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 10px 24px 100px 37px;
+    background: url(images/background.png);
+    }
+footer
+    { 
+    width: 910px;
+    font: normal 100% 'open sans';
+    height: 45px;
+    padding: 28px 0 5px 0;
+    text-align: center; 
+    background: url(images/menubar.png) repeat;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-bottom: 0px;
+    text-transform: none;
+    float: left;
+    color: #B22222;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    display: flex;
+    }
+
+/*Home Page*/
+
+.home {
+    text-align: center;
+    padding-top: 250px;
+    
+}
+.hello {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;  
+}
+fas fa-camera-retro fa-3x {
+    float: left;
+    display: flex;
+}
+
+/*About Page*/
+.aboutimage {
+    border-radius: 3px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 250px;
+    float: left;
+    margin: 0;
+    }
+ul {
+    list-style: none;
+    }  
+                
